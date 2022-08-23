@@ -16,16 +16,16 @@ langtranslator = LanguageTranslatorV3(
 
 langtranslator.set_service_url(url)
 
-st.title("Language-Translator")
+st.title("Nepali Language Translator")
 
 # setting up the dropdown list of the languages
 
 option = st.selectbox(
     'Which language would you choose to type', 
-    ('English', 'Nepali','Arabic', 'Hindi', 'German', 'Spanish', 'Korean'))
+    ('English', 'Nepali'))
 
 option1 = st.selectbox('Which language would you like to translate to',
-                       ('English', 'Nepali', 'Arabic', 'Hindi', 'German', 'Spanish', 'Korean'))
+                       ('English', 'Nepali'))
 
 
 sent = "Enter the text in "+option+" language in the text-area provided below"
@@ -33,8 +33,7 @@ sent = "Enter the text in "+option+" language in the text-area provided below"
 # setting up the dictionary of languages to their keywords
 
 
-language_lib = {'English': 'en', 'Nepali' : 'ne', 'Arabic': 'ar',
-                'Hindi': 'hi', 'Spanish': 'es', 'German': 'de', 'Korean': 'ko'}
+language_lib = {'English': 'en', 'Nepali' : 'ne'}
 
 sentence = st.text_area(sent, height=250)
 
@@ -43,7 +42,7 @@ if st.button("Translate"):
     try:
 
         if option == option1:
-            st.write("Please Select different Language for Translation")
+            st.write("Please Select  Language for Translation")
 
         else:
 

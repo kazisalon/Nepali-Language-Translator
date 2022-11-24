@@ -32,6 +32,7 @@ sent = "Enter the text in "+option+" language in the text-area provided below"
 
 # setting up the dictionary of languages to their keywords
 
+language = {"hello":" hi"}
 
 language_lib = {'English': 'en', 'Nepali' : 'ne'}
 

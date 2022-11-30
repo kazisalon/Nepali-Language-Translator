@@ -35,6 +35,9 @@ sent = "Enter the text in "+option+" language in the text-area provided below"
 # language = {"hello":" hi"}
 hey = {"hsh":"da"}
 
+awd = {"hsh":"da"}
+
+
 language_lib = {'English': 'en', 'Nepali' : 'ne'}
 
 sentence = st.text_area(sent, height=250)

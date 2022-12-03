@@ -35,6 +35,7 @@ sent = "Enter the text in "+option+" language in the text-area provided below"
 # language = {"hello":" hi"}
 hey = {"hsh":"da"}
 
+hh = {"dahwd": "wada"}
 awd = {"hsh":"da"}
 
 
